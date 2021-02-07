@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+body {
+  font-family: 'Aldrich', sans-serif;
+  background-color: #e7e7de;
+  margin-left: 25px;
+  margin-top: 60px;
+  margin-bottom: 25px;
+  /* text-align: center; */
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1.25em;
+  color: black;
+}
+
+input[type='radio'] {
+  border: 0px;
+  width: 40px;
+  height: 0.95em;
+}
+
+.question {
+  font-size: 1.25rem;
+  position: relative;
+  /* padding-top: 60px; */
+}
+
+.startButton {
+  border: solid;
+  background-color: #eee;
+  color: #222;
+  font-size: 1.25rem;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+}
+
+.quizMessage {
+  font-size: 1.5em;
+  color: red;
+}
+
+.result {
+  font-size: 2rem;
+  color: red;
+}
+
+.nextButton {
+  border: solid;
+  background-color: #eee;
+  color: #222;
+  margin-top: 5px;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.answerButton {
+  display: none;
+  border: solid;
+  background-color: #eee;
+  color: #222;
+  margin-top: 5px;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.image {
+  position: relative;
+  height: auto;
+  max-width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
