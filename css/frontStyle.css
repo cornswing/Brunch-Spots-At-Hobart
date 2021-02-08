@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+body {
+  font-family: 'Aldrich', sans-serif;
+  background-color: #e7e7de;
+  text-align: center;
+}
+h1 {
+  font-size: 1.75rem;
+  padding-top: 60px;
+}
+
+p {
+  font-size: 1rem;
+}
+.startButton {
+  border: solid;
+  background-color: #eee;
+  color: #222;
+  font-size: 1.25rem;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+}
