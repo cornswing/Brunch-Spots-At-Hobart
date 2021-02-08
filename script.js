@@ -79,13 +79,13 @@ var questions = [
   },
   {
     image: 7,
-    choices: ['Abel Land', 'La La Land', 'The Sunny Cafe', 'Egg Land Cafe'],
-    correctAnswer: 0,
+    choices: ['Dark', 'Berta', 'Pilgrim Coffee', 'Friends And Family'],
+    correctAnswer: 2,
   },
   {
     image: 8,
-    choices: ['Dark', 'Berta', 'Pilgrim Coffee', 'Friends And Family'],
-    correctAnswer: 2,
+    choices: ['Abel Land', 'La La Land', 'The Sunny Cafe', 'Egg Land Cafe'],
+    correctAnswer: 0,
   },
 ];
 
@@ -144,8 +144,6 @@ window.addEventListener('DOMContentLoaded', function (e) {
 // FUNCTIONALITY
 // Display current question functionality
 function displayCurrentQuestion() {
-  // console.log('currently showing current question');
-
   let numChoices = questions[currentQuestion].choices.length;
 
   // Remove all current <li> elements if any
@@ -169,12 +167,7 @@ function displayCurrentQuestion() {
 const displayPhoto = function () {
   image.innerHTML = '';
 
-  // let imageNumber = questions[currentQuestion].image.length;
-  // console.log(questions[currentQuestion].image);
-
   let img = document.createElement('img');
-  // img.innerHTML =
-  //   '<img src="image/' + questions[currentQuestion].image + '.jpg"/>';
 
   img.src = 'image/' + questions[currentQuestion].image + '.jpg';
   image.appendChild(img);
@@ -190,11 +183,6 @@ const displayScore = function () {
 const hideScore = function () {
   result.classList.add('.hidden');
 };
-
-// // Hide check answer functionality
-// const hideAnswer = function () {
-//   answerBtn.classList.add('.hidden');
-// };
 
 // Reset functionality
 const reset = function () {
