@@ -82,6 +82,8 @@ input[type='radio'] {
 .img-box img {
   max-width: 100%;
   height: auto;
+  margin-right: 25px;
+
 }
 
 .hidden {
